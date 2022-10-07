@@ -1,0 +1,21 @@
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding: .375rem;
+}
+
+.Selected {
+  background-color: #123987;
+}
+
+button {
+  cursor: pointer;
+  padding: .25rem;
+  border: 1px solid #DEDEDE;
+  outline: none;
+}
+
+button:hover {
+    background-color: #D1D1D1;
+}

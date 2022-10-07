@@ -1,10 +1,22 @@
-<div *ngIf="hero">
-
+<div *ngIf="hero; else NoHero">
+  <button (click)="onClickClose()">Close</button>
   <h2>{{hero.name | uppercase}} Details</h2>
   <div><span>id: </span>{{hero.id}}</div>
   <div>
     <label for="hero-name">Hero name: </label>
     <input id="hero-name" [(ngModel)]="hero.name" placeholder="name">
   </div>
-
+  <div>
+    <button 
+    class="Alert"
+    (click)="onClickAlert()" 
+    [ngStyle]="{
+      backgroundColor: getColor()
+    }">Alert name</button>
+    <input type="text" name="thing" (input)="onChangeInput($event)" />
+  </div>
 </div>
+
+<ng-template #NoHero>
+  <div>No Hero was choose</div>
+</ng-template>

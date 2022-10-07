@@ -17,34 +17,34 @@ export class AppComponent {
 
   
   ngOnInit() {
-    console.log("AppComponent ngOnInit")
+    // console.log("AppComponent ngOnInit")
   }
 
-  ngOnChanges(changes: SimpleChanges) {
-    console.log("AppComponent ngOnChanges: ", changes)
-  }
+  // ngOnChanges(changes: SimpleChanges) {
+  //   console.log("AppComponent ngOnChanges: ", changes)
+  // }
 
-  ngDoCheck() {
-    console.log("AppComponent ngDoCheck")
-  }
+  // ngDoCheck() {
+  //   console.log("AppComponent ngDoCheck")
+  // }
 
-  ngAfterContentInit() {
-    console.log("AppComponent ngAfterContentInit")
-  }
+  // ngAfterContentInit() {
+  //   console.log("AppComponent ngAfterContentInit")
+  // }
 
-  ngAfterContentChecked() {
-    console.log("AppComponent ngAfterContentChecked")
-  }
+  // ngAfterContentChecked() {
+  //   console.log("AppComponent ngAfterContentChecked")
+  // }
 
-  ngAfterViewInit() {
-    console.log("AppComponent ngAfterViewInit")
-  }
+  // ngAfterViewInit() {
+  //   console.log("AppComponent ngAfterViewInit")
+  // }
 
-  ngAfterViewChecked() {
-    console.log("AppComponent ngAfterViewChecked")
-  }
+  // ngAfterViewChecked() {
+  //   console.log("AppComponent ngAfterViewChecked")
+  // }
 
-  ngOnDestroy() {
-    console.log("AppComponent ngOnDestroy")
-  }
+  // ngOnDestroy() {
+  //   console.log("AppComponent ngOnDestroy")
+  // }
 }
